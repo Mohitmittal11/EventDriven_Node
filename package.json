@@ -4,7 +4,7 @@
   "description": "Creating an Event Driven System",
   "main": "server.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "npx tsc",
     "start": "tsc && nodemon dist/server.js",
     "dev": "nodemon src/server.ts"
   },
