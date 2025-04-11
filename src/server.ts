@@ -8,6 +8,8 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
+console.log("Hello");
+
 app.listen(port, () => {
   return console.log(`Express is listening at http://localhost:${port}`);
 });
